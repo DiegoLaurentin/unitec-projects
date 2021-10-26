@@ -1,0 +1,259 @@
+/*
+1. Posicionamiento
+2. Modelo de caja (Box Model)
+3. Tipografía
+4. Visuales
+5. Otros 
+*/
+
+:root {
+    /*colores*/
+    --white: #F4F4F4;
+    --grey: #949494;
+    --black: #12141C;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+html {
+    width: 100%;
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Atyp Display', sans-serif;
+    background-color: var(--black);
+    color: var(--white);
+}
+header{
+    width: 100%;
+}
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* Navegación */
+
+.logo {
+    width: 240px;
+    margin-left: 20px;
+}
+.bar-btn {
+    margin-right: 20px;
+    font-size: 2.5rem;
+    color: var(--white);
+    cursor: pointer;
+}
+.nav-menu {
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 100px;
+    background-color: var(--black);
+    text-align: center;
+    transition: all .5s;
+}
+.nav-menu li {
+    margin: 50px 0;
+    display: none;
+    line-height: 30px;
+    transition: all .5s;
+}
+.nav-menu li a{
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 400;
+}
+.nav-menu li a.active, .nav-menu li  a:hover {
+    text-decoration: 1px solid underline var(--white);
+    transition: .3s;
+}
+#check {
+    display: none;
+
+}
+#check:checked ~ .nav-menu {
+    height: 100vh;
+}
+
+#check:checked ~ .nav-menu li {
+    display: block;
+
+}
+
+/* Container */
+
+.container {
+    margin: 75px 25px;
+}
+.container .title {
+    padding: 100px 0px;
+}
+.container .title p {
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+.container .title h1 {
+    padding-top: 5px;
+    font-weight: 400;
+    font-size: 3.8rem;
+}
+.container .description {
+    width: 230px;
+    padding-top: 300px;
+    color: var(--grey);
+}
+.hl {
+    border-bottom: 1px solid var(--grey);
+    width: 80px;
+    height: 2px;
+}
+
+/* What I do? */
+
+.what-i-do {
+    margin-top: 65px;
+}
+.what-i-do h2 {
+    font-size: 4.0rem;
+    font-weight: 300;
+}
+.what-i-do .white-p {
+    padding-top: 60px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-style: normal; 
+}
+.what-i-do .grey-p {
+    padding-top: 60px;
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-style: normal;
+    color: var(--grey); 
+}
+
+/* What do I like? */
+
+.what-do-i-like{
+    margin-top: 165px;
+}
+.what-do-i-like h2 {
+    font-size: 4.0rem;
+    font-weight: 300;
+    padding-bottom: 80px;
+}
+.what-do-i-like--object {
+    align-self: auto;
+    padding-bottom: 50px;
+}
+.what-do-i-like ul li{
+    width: 170px;
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-shadow: 2px 2px 10px #000 ;
+}
+
+.what-do-i-like--object img {
+    padding-left: 30px;
+    width: 425px;
+    height: 255px;
+}
+
+/* What do I dislike */
+
+.what-do-i-dislike h2 {
+    font-size: 4.0rem;
+    font-weight: 300;
+    padding-bottom: 80px;
+}
+.what-do-i-dislike .what-do-i-dislike--list li {
+    padding-top: 30px;
+    font-size: 2.5rem;
+}
+.what-do-i-dislike .what-do-i-dislike--list p {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    font-size: 1.4rem;
+    color: var(--grey);
+}
+
+/* Contacto */
+
+.contact {
+    padding-top: 120px;
+
+}
+.contact h2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.description--contact--image .mobile-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact .description--contact {
+    padding-top: 35px;
+}
+.contact .description--contact p{
+    width: 250px;
+    font-size: 1.4rem;
+    color: var(--grey);
+}
+.contact .contact-end {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.contact .contact--links {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.contact .contact--links li {
+    padding-bottom: 20px;
+}
+.contact .contact--links li a{
+    color: var(--white);
+}
+.contact .contact--links li a:hover{
+    border-bottom: 1px solid var(--white);
+}
+.contact .description--title{
+    padding-left: 20px;
+    
+}
+.contact .description--title .hl {
+    width: 100%;
+}
+.contact .description--title p {
+    padding-top: 15px;
+    font-size: 1.6rem;
+    font-weight: 300;
+    
+}
+
+/* Footer */
+
+footer h4 {
+    padding: 40px 0;   
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: var(--grey);
+}

@@ -1,0 +1,67 @@
+/* Header */
+
+.logo {
+    margin-left: 40px;
+}
+.bar-btn {
+    margin-right: 40px;
+}
+.nav-menu {
+    margin-top: 50px;
+}
+.nav-menu li a{
+    font-size: 2.5rem;
+}
+
+/* Container */
+
+.container {
+    margin: 75px 40px;
+}
+
+
+.title {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+/* What I do */
+
+.what-i-do--description {
+    display: flex;
+    justify-content: space-around;
+    align-items:baseline;
+}
+.what-i-do--description .white-p {
+    padding-right: 20px;
+}
+.what-i-do--description .grey-p {
+    padding-left: 20px;
+}
+
+/* What do I like */
+#what-do-i-like--object-1, #what-do-i-like--object-3  {
+    padding-left: 60px;
+}
+#what-do-i-like--object-2, #what-do-i-like--object-4 {
+    padding-left: 150px;
+}
+
+/* What do I dislike */
+
+.what-do-i-dislike .what-do-i-dislike--list p {
+    padding-left: 100px;
+}
+
+/* Contact */
+.contact {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.contact h2{
+    font-size: 3.5rem;
+}
+
+.contact .description--title {
+    padding-left: 50px;
+}

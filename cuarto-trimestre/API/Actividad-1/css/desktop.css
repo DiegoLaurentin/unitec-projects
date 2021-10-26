@@ -1,0 +1,128 @@
+/* header */
+
+.logo {
+    margin-left: 50px;
+}
+.nav-menu {
+    margin-right: 50px;
+}
+
+/* Container */
+.container .title {
+    padding: 0; 
+    margin-left: 0;
+    margin-top: 225px;
+}
+.container .title .div-title {
+    padding: 0;
+    margin-left: 400px;
+    margin-bottom: 320px;
+}
+.container .title .div-title p {
+    font-size: 2.5rem;
+}
+.container .title .div-title h1 {
+    font-size: 5.5rem;
+    font-weight: 500;
+    width: 920px;
+}
+.container .title .description {
+    width: 250px;
+    padding: 0;
+}
+.container .title .description p {
+    padding-top: 5px;
+}
+
+
+/* What I do */
+
+.what-i-do {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    align-items: baseline;
+    margin: 150px 10px;
+}
+.what-i-do--description .white-p {
+    padding-top: 0;
+    font-size: 2rem;
+}
+.what-i-do--description .grey-p {
+    padding-top: 0;
+    font-size: 2rem;
+}
+
+/* What do I like */
+.what-do-i-like--list {
+    display:block;
+}
+#what-do-i-like--object-3, #what-do-i-like--object-4 {
+    padding-top: 0px;
+}
+.what-do-i-like--list .what-do-i-like--object{
+    margin: 250px 50px;
+}
+#what-do-i-like--object-1, #what-do-i-like--object-3 {
+    padding-left: 150px;
+}
+#what-do-i-like--object-2, #what-do-i-like--object-4 {
+    padding-left: 500px;
+}
+.what-do-i-like--object .what-do-i-like--title li {
+    width: 350px;
+    font-size: 3rem;
+    text-shadow: 1px 1px 5px var(--black);
+}
+.what-do-i-like--object img {
+    width: 824px;
+    height: 504px;
+}
+
+/* What do I dislike */
+
+.what-do-i-dislike {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.what-do-i-dislike .what-do-i-dislike--div .what-do-i-dislike--list li {
+    font-size: 3.5rem;
+}
+.what-do-i-dislike .what-do-i-dislike--div .what-do-i-dislike--list p {
+    padding-left: 200px;
+    font-size: 2rem;
+}
+
+/* Contact */
+
+.contact h2{
+    padding: 0;
+    padding-left: 150px;
+    font-size: 5rem;
+}
+.description--contact .description--contact--image {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.description--contact .description--contact--image p{
+    width: 300px;
+    font-size: 1.8rem;
+}
+.description--contact .description--contact--image img{
+    padding-left: 100px;
+}
+.contact-end {
+    padding-left: 600px;
+}
+.contact-end .contact--links li a {
+    font-size: 2rem;
+}
+.contact-end .description--title{
+    padding-right: 300px;
+}
+.contact-end .description--title p {
+    font-size: 2.5rem;
+}
+
+
