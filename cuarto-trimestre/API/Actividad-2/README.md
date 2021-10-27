@@ -17,9 +17,9 @@ Este formulario podía ser sobre cualquier ámbito, un inicio de sesión, un reg
     - El botón de envío del formulario
     - El botón de resetear o borrar el contenido
 
-3. Todas las **inputs** debían tener el atributo "name" sin repetirse, a excepción de los radio-botones.
+3. Todas las **inputs** debían tener el atributo **"name"** sin repetirse, a excepción de los radio-botones.
 
-4. Todas las etiquetas inputs debían tener una etiqueta "label" arriba de ellas, con el atributo "for".
+4. Todas las etiquetas **inputs** debían tener una etiqueta **"label"** arriba de ellas, con el atributo **"for"**.
 
 5. El formulario debían tener un color de fondo y un color para las letras.
 
