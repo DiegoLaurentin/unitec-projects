@@ -9,7 +9,7 @@ public class Homework_III_2 {
 
         Scanner sc = new Scanner(System.in);
         String nombre;
-        int day, cedula, response, permissionCode, counter, option, accessCode = 1234;
+        int day, cedula, permissionCode, accessCode = 1234;
         double totalCompra, montoCompra, descuento, sumaCompra = 0;
 
         do {

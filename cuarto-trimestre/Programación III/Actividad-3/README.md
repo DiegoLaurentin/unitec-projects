@@ -11,4 +11,4 @@ Para esta actividad se debió realizar dos programas en Java sobre lo siguiente:
 
 ### Resolución de la Actividad:
 
-A continuación se encuentra el vídeo explicativo: [Link del Video](https://youtu.be/B6YYc-yHNhs "Vídeo explicativo de la Actividad 2").
+A continuación se encuentra el vídeo explicativo: [Link del Video](https://youtu.be/-cVEhE675eQ "Vídeo explicativo de la Actividad 2").

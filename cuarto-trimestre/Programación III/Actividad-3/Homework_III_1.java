@@ -13,7 +13,7 @@ public class Homework_III_1 {
         Scanner sc = new Scanner(System.in);
         String nombre;
         int accessCode = 1234;
-        int cedula, permissionCode, response, tipoDePago, counter, option;
+        int cedula, permissionCode, tipoDePago;
         double valorCompra, total, sumCompra = 0;
 
 
