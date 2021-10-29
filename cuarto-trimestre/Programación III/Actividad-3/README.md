@@ -1,4 +1,4 @@
-## Actividad 2: Estructura IF-THEN en Java
+## Actividad 3: Estructura IF-THEN en Java
 
 Para esta actividad se debió realizar dos programas en Java sobre lo siguiente:
 
