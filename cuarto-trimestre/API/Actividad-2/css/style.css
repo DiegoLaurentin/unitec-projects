@@ -109,6 +109,24 @@ header img {
     font-weight: 300;
     color: var(--white);
 }
+.form-info .Button {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.form-info .Button button {
+    background: none;
+    border: 1px solid var(--white);
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: var(--white);
+}
+.form-info .Button button:hover {
+    background-color: var(--white);
+    color: var(--black);
+    transition: 0.5s;
+}
 
 /* Social Media */
 

@@ -1,0 +1,24 @@
+body {
+    padding: 40px 100px;
+}
+header {
+    height: 10vh;
+}
+header img {
+    width: 200px;
+    height: auto;
+}
+.Title {
+    width: auto;
+    max-width: 450px;
+}
+.Title h1{
+    font-size: 8rem;
+}
+.form {
+    max-width: 700px;
+    justify-self: flex-end;
+}
+.form .form-info {
+    padding-top: 60px;
+}

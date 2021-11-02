@@ -1,0 +1,21 @@
+body {
+    height: 100vh;
+}
+.Container {
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.Title {
+    width: 380px;
+}
+.Title h1 {
+    font-size: 6rem;
+}
+.Title p {
+    font-size: 1.6rem;
+}
+.form {
+    height: 55vh;
+}

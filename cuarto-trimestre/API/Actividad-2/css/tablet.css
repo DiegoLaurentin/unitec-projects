@@ -1,0 +1,36 @@
+body {
+    padding: 30px 50px;
+}
+
+/* Title */
+
+.Title {
+    width: 50%;
+}
+.Title h1 {
+    font-size: 5rem;
+}
+
+/* Form Section */
+
+.form .form-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.form .form-info .description,
+.form .form-info .Button{
+    grid-column: 1 / 3;
+}
+.form .form-info .Button button{
+    width: 150px;
+}
+
+/* Social Media */
+
+.Social-Media {
+    padding-top: 60px;
+}
+.Social-Media .contact--links {
+    display: flex;
+    justify-content: space-around;
+}
