@@ -26,3 +26,7 @@ Este formulario podía ser sobre cualquier ámbito, un inicio de sesión, un reg
 6. Debía estar lo más ordenado posible utilizando las etiquetas CSS necesarias.
 
 7. La pseudo-clase **:hover**
+
+## Resolución de la Actividad
+
+![Principal Design](https://i.imgur.com/uNjcFYw.png)
