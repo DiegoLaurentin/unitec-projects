@@ -1,11 +1,11 @@
 ## Actividad 2.
-#### Descripción de la Actividad.
+### Descripción de la Actividad.
 
 Consiste en elaborar un formulario con las etiquetas aprendidas en clase utilizando HTML junto a su hoja de estilos CSS.
 
 Este formulario podía ser sobre cualquier ámbito, un inicio de sesión, un registro, una encuesta, un especie de juego, preguntas, entre otros.
 
-##### Para esto, se tenía que utilizar:
+### Para esto, se tenía que utilizar:
 
 1. Un título grande y centrado
 
