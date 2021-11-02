@@ -4,13 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href = "../Actividad-2/css/style.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)">
-    <link rel="stylesheet" href="./css/laptop.css" media="(min-width: 1024px)">
-    <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1080px)">
+    <link rel="stylesheet" href = "./css/style.css" rel="stylesheet" type="text/css" />
     <title>API - Diego Laurentin</title>
 </head>
 <body>
-    
+    <header>
+        <img src="./img/Logotipo-White.svg" alt="Logotipo-White">
+    </header>
+
+    <main class="Container">
+        <section class="Title">
+            <h1>Just say hi!</h1>
+            <hr>
+            <p>It is very important for me to keep in touch with you, soy I am always ready to answer any question that interests you. Shoot!</p>
+        </section>
+        <section class="form">
+            <form class="form-info">
+                <p>
+                    <label for="Name" class="form-label"></label>
+                    <input class="form-input" type="text" name="Name" id="Name" placeholder="Name" required>
+                </p>
+                <p>
+                    <label for="Lastname" class="form-label"></label>
+                    <input class="form-input" type="text" name="Lastname" id="Lastname" placeholder="Lastname" required>
+                </p>
+                <p>
+                    <label for="Email" class="form-label"></label>
+                    <input class="form-input" type="email" name="Email" id="Email" placeholder="Email" required>
+                </p>
+                <p>
+                    <label for="Phone" class="form-label"></label>
+                    <input class="form-input" type="tel" name="Phone" id="Phone" placeholder="Phone" required>
+                </p>
+                <p>
+                    <label for="Type-of-Company" class="form-label">Type of Company</label>
+                    <br>
+                    
+                    <input type="radio" name="Type-of-Company" value="1">Startup<br>
+                    <input type="radio" name="Type-of-Company" value="2">PYME<br>
+                    <input type="radio" name="Type-of-Company" value="3">Entrepreneurship
+                </p>
+                <p>
+                    <label for="Type of Project" class="form-label">Type of Project</label>
+                    <br>
+                    <input type="checkbox" name="Type-of-Company" value="1">Brand Design<br>
+                    <input type="checkbox" name="Type-of-Company" value="2">Web Developing<br>
+                </p>
+                <p>
+                    <label class="form-label">Project Description</label>
+                    <br>
+                    <textarea class="form-textarea" name="message" rows="3"></textarea>
+                </p>
+                <p class="Buttom">
+                    <button class="submit" type="submit">Send</button>
+                    <button class="Reset" type="submit">Reset</button>
+                </p>
+            </form> 
+        </section>
+        <div class="Social-Media">
+            <ul class="contact--links">
+                <li><a href="https://www.behance.net/DiegoLaurentin">Behance.</a></li>
+                <li><a href="https://github.com/DiegoLaurentin">Github.</a></li>
+                <li><a href="https://www.instagram.com/diegolaurentin/">Instagram.</a></li>
+                <li><a href="https://twitter.com/DiegoLaurentin">Twitter.</a></li>
+            </ul>
+        </div>
+    </main>
 </body>
 </html>
