@@ -15,3 +15,4 @@ console.log('For: ', globalClients);
 const globalClientsConcat = clients2020.concat(clients2021);
 
 console.log('Concat: ', globalClientsConcat)
+
