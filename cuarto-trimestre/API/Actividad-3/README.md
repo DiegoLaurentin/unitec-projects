@@ -6,6 +6,10 @@ La tercera asignación de este API consiste en lo siguiente:
 - Crear un documento HTML utilizando Grid y Flexbox (ambas)
 - Usen animaciones o transiciones
 
+## Diseño original:
+
+[FrontendMentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX)
+
 ## Resolución de la Actividad:
 
 ![Mobile](https://i.imgur.com/AmTyAOR.jpg)
