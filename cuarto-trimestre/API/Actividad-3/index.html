@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/desktop.css" media="(min-width: 768px)">
+  <title>Frontend Mentor | Tip calculator app</title>
+</head>
+<body>
+  <h1>SPLI<br>TTER</h1>
+  <main class="container">
+    <div class="left-side">
+      <div class="secction--bill">
+        <h4 class="primary-title">Bill</h4>
+        <div>
+          <img src="./images/icon-dollar.svg" alt="dolar">
+          <input type="number" name="bill" id="bill" placeholder="0.00">
+        </div>
+      </div>
+      <div class="section--select-tip">
+        <h4 class="primary-title">Select Tip %</h4>
+        <div class="tip-btn">
+          <button type="button" class="principal-btn">5%</button>
+          <button type="button" class="principal-btn">10%</button>
+          <button type="button" class="principal-btn">15%</button>
+          <button type="button" class="principal-btn">25%</button>
+          <button type="button" class="principal-btn" onclick="">50%</button>
+          <input type="number" name="custom-tip" placeholder="Custom">
+        </div>
+      </div>
+      <div class="section--n-o-p">
+        <h4 class="primary-title">Number of People</h4>
+        <div>
+          <img src="./images/icon-person.svg" alt="person">
+          <input type="text" name="person" placeholder="1">
+        </div>
+      </div>
+    </div>
+    <div class="right-side">
+      <div>
+        <div class="section--tip-amount">
+          <div>
+            <h4 class="secundary-title">Tip Amount</h4>
+            <p>/ person</p>
+          </div>
+          <p id="Result">$0.00</p>
+        </div>
+        <div class="section--total">
+          <div>
+            <h4 class="secundary-title">Total</h4>
+            <p>/ Person</p>
+          </div>
+          <p id="Result">$0.00</p>
+        </div>
+      </div>
+      <button class="secundary-button" type="reset">RESET</button>
+    </div>
+  </main>
+  <script src="./main.js"></script>
+</body>
+</html>

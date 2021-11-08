@@ -1,0 +1,26 @@
+body {
+    max-height: 90vh;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 150px auto 0;
+    height: auto;
+    padding: 40px;
+    width: 1000px;
+    gap: 40px;
+    border-radius: 20px;
+}
+input {
+    height: 50px;
+    border-radius: 10px;
+}
+.section--select-tip .tip-btn {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Right */
+
+.secundary-button {
+    margin-top: 140px;
+}
