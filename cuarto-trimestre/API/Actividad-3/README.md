@@ -8,5 +8,5 @@ La tercera asignación de este API consiste en lo siguiente:
 
 ## Resolución de la Actividad:
 
-![Mobile]("https://i.imgur.com/AmTyAOR.jpg")
-![Desktop]("https://i.imgur.com/MUl2RFO.jpg")
+![Mobile](https://i.imgur.com/AmTyAOR.jpg)
+![Desktop](https://i.imgur.com/MUl2RFO.jpg)
