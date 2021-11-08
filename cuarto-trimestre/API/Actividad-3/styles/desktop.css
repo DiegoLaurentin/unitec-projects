@@ -11,6 +11,10 @@ body {
     gap: 40px;
     border-radius: 20px;
 }
+img {
+    position: absolute;
+    margin: 15px;
+}
 input {
     height: 50px;
     border-radius: 10px;

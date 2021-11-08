@@ -55,8 +55,12 @@ body > h1 {
     justify-content: center;
     align-items: center;
 }
+.input-div {
+    align-items: center;
+}
 img {
-    position: absolute
+    position: absolute;
+    margin: 8px;
 }
 input {
     width: 100%;
@@ -70,6 +74,10 @@ input {
     border-radius: 5px;
     color: var(--very-dark-cyan);
     background-color: var(--light-cyan-white);
+}
+input:hover, input:focus-visible {
+    outline: transparent;
+    border: 2px solid var(--strong-cyan);
 }
 ::placeholder {
     text-align: end;
