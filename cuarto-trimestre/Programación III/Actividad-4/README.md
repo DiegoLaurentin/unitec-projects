@@ -20,4 +20,4 @@ PREGUNTAS
 
 ### Resolución de la Actividad:
 
-A continuación se encuentra el vídeo explicativo: [Link del Video](https://youtu.be/-cVEhE675eQ "Vídeo explicativo de la Actividad 2").
+A continuación se encuentra el vídeo explicativo: [Link del Video](https://youtu.be/gCMhzk58_io "Vídeo explicativo de la Actividad 2").
