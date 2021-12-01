@@ -1,0 +1,90 @@
+:root {
+  --very-dark-cyan: hsl(183, 100%, 15%);
+  --dark-grayish-cyan: hsl(186, 14%, 43%);
+  --light-grayish-cyan: hsl(185, 41%, 84%);
+  --light-cyan-white: hsl(189, 41%, 97%);
+  --white: hsl(0, 0%, 100%);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  paddding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: 'Fira Code', sans-serif;
+  background-color: var(--light-grayish-cyan);
+}
+.App{
+  margin: 0 auto;
+  height: auto;
+  width: 75%;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 2.5rem;
+  color: var(--very-dark-cyan);
+}
+.calculator-grid {
+  display: grid;
+  gap: 5px;
+  justify-content: center;
+  align-content: center;
+  min-height: 60vh;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: minmax(80px, auto) repeat(5, 80px);
+  background-color: var(--white);
+  border-radius: 1rem;
+}
+.calculator-grid button {
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  font-family: 'Fira Code';
+  font-size: 1.6rem;
+  font-weight: semibold;
+  color: var(--white);
+  outline: none;
+  transition: 0.4s;
+  background-color: var(--very-dark-cyan)
+}
+.calculator-grid button:hover {
+  background-color: var(--white);
+  color: var(--very-dark-cyan);
+}
+.span-two {
+  grid-column: span 2;
+}
+
+.output {
+  grid-column: 1 / -1;
+  margin-bottom: .5rem;
+  background-color: var(--light-grayish-cyan);
+  display: flex;
+  font-family: 'Fira Code';
+  border-radius: 1rem;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.output .previus-operand {
+  color: var(--dark-grayish-cyan);
+  font-size: 1.5rem;
+}
+
+.output .current-operand {
+  color: var(--very-dark-cyan);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
