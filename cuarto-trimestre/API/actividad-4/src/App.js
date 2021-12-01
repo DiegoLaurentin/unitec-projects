@@ -44,7 +44,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>My Calcuator</h1>
+        <h1>My Calculator</h1>
         <div className="calculator-grid">
           <div className="output">
             <div className="previus-operand">{currentOperation ? number1 + currentOperation: ""}</div>
@@ -69,6 +69,7 @@ function App() {
           <button onClick={() => {clickNumber(0)}}>0</button>
           <button onClick={getResult} className="span-two">=</button>
         </div>
+        <p>Designed for Diego Laurentin</p>
       </div>
     </div>
   );
