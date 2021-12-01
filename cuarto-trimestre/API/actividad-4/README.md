@@ -1,7 +1,7 @@
 # Actividad #4: Crear una app utilizando ReactJS
 
 ### Resolución de la actividad:
-![imagen-calculadora]("https://i.imgur.com/1bHHWLE.png")
+![imagen-calculadora](https://i.imgur.com/1bHHWLE.png)
 
 # Getting Started with Create React App
 
