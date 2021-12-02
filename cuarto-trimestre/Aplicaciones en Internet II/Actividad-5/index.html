@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Funciones con jQuery</title>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div class="calc-container">
+		<table>
+			<tr>
+				<th colspan="4">
+					&nbsp;
+					<span class="valueOne"></span>
+					<span class="valueSymble"></span>
+					<span class="valueTwo"></span>
+				</th>
+			</tr>
+			<tr>
+				<td class="x1 first-active">7</td>
+				<td class="x1 first-active">8</td>
+				<td class="x1 first-active">9</td>
+				<td class="symble">&#247</td>
+			</tr>
+			<tr>
+				<td class="x1 first-active">4</td>
+				<td class="x1 first-active">5</td>
+				<td class="x1 first-active">6</td>
+				<td class="symble">&#215</td>
+			</tr>
+			<tr>
+				<td class="x1 first-active">1</td>
+				<td class="x1 first-active">2</td>
+				<td class="x1 first-active">3</td>
+				<td class="symble">-</td>
+			</tr>
+			<tr>
+				<td class="x1 first-active">.</td>
+				<td class="x1 first-active">0</td>
+				<td class="x1 first-active">00</td>
+				<td class="symble" rowspan="2">+</td>
+			</tr>
+			<tr>
+				<td id="cancel">C</td>
+				<td colspan="2" id="equal">=</td>
+			</tr>
+		</table>
+	</div>	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+:root {
+  /* Principal */
+
+  --strong-cyan: hsl(172, 67%, 45%);
+
+  /* Neutral */
+
+  --very-dark-cyan: hsl(183, 100%, 15%);
+  --dark-grayish-cyan: hsl(186, 14%, 43%);
+  --light-grayish-cyan: hsl(185, 41%, 84%);
+  --light-cyan-white: hsl(189, 41%, 97%);
+  --white: hsl(0, 0%, 100%);
+
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	width: 100%;
+	height: 100%;
+	padding: 150px;
+	font-family: 'Space Mono', monospace;
+	font-size: 1.6rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: var(--light-cyan-white)
+}
+.calc-container {
+	width: 400px;
+	padding: 10px;
+	background-color: var(--white);
+}
+.calc-container table {
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+}
+.calc-container table tr th,
+.calc-container table tr td {
+	width: 25%;
+	background-color: var(--very-dark-cyan);
+	border: 5px solid transparent;
+	border-radius: 1rem;
+	background-clip: padding-box;
+	padding: 20px 10px;
+	font-size: 2rem;
+	font-weight: 700;
+	cursor: pointer;
+	color: var(--white);
+	transition: all 0.3s ease-out;
+	position: relative;
+}
+.calc-container table tr th {
+	background-color: var(--light-grayish-cyan);
+	text-align: right;
+	background-clip: padding-box;
+	font-size: 30px;
+	color: var(--very-dark-cyan);
+	cursor: default;
+}
+.calc-container table tr td:hover{
+	background-color: var(--light-grayish-cyan);
+	color: var(--very-dark-cyan);
+}
+.symble {
+	pointer-events: none;
+}
